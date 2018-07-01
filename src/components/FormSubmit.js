@@ -11,7 +11,7 @@ class FormSubmit extends Component {
         <form onSubmit={this.props.onSubmitMessage} style={{ display: "flex" }}>
           <input
             type="text"
-            style={{ flex: 9, height: 30 }}
+            tyle={{ flex: 9, height: 30 }}
             onChange={this.props.onChangeMessage}
           />
           <button type="submit" style={{ height: 35, flex: 1 }}>
@@ -22,5 +22,4 @@ class FormSubmit extends Component {
     );
   }
 }
-
 export default FormSubmit;
